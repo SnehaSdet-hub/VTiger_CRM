@@ -58,7 +58,29 @@
     <version>5.0.9</version>
 </dependency>
 
+<!-- REST Assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- JSON Path -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>5.4.0</version>
+</dependency>
+
+<!-- JDBC -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
 
 
   </dependencies>
+
 </project>
